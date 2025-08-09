@@ -1,0 +1,49 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    padding: 5px;
+    padding-top: 10px;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-style: italic;
+}
+a:hover{
+    color:blue;
+}
+th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    background-color: rgb(80, 151, 168);
+    text-align: left;
+}
+table,th,td{
+    border: solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+.hover-image{
+    display:none;
+    width: 200px;
+    position:absolute;
+    left: 50px;
+    z-index: 25;
+}
+.hover-container {
+    display:inline-block;
+    position: relative;
+}
+.hover-container:hover .hover-image {
+display:grid;
+}
