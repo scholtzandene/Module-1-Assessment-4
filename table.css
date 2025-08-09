@@ -1,49 +1,59 @@
-h1{
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
     padding: 5px;
     padding-top: 10px;
 
 }
-p{
+
+p {
     font-family: 'Times New Roman', Times, serif;
-    font-size:large;
+    font-size: large;
     padding: 5px;
 }
 
-a{
+a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-style: italic;
 }
-a:hover{
-    color:blue;
+
+a:hover {
+    color: blue;
 }
-th{
+
+th {
     font-family: 'Times New Roman', Times, serif;
-    font-size:x-large;
+    font-size: x-large;
     background-color: rgb(80, 151, 168);
     text-align: left;
 }
-table,th,td{
+
+table,
+th,
+td {
     border: solid;
     border-collapse: collapse;
     padding: 5px;
 }
-tr:nth-child(odd){
+
+tr:nth-child(odd) {
     background-color: lightblue;
 }
-.hover-image{
-    display:none;
+
+.hover-image {
+    display: none;
     width: 200px;
-    position:absolute;
+    position: absolute;
     left: 50px;
     z-index: 25;
 }
+
 .hover-container {
-    display:inline-block;
+    display: inline-block;
     position: relative;
 }
+
 .hover-container:hover .hover-image {
-display:grid;
+    display: grid;
 }
